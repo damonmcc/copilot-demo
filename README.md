@@ -2,8 +2,6 @@
 
 This repository demonstrates use of Github Copilot in VS Code.
 
-This repository demonstrates the implementation of a GitHub Model Context Protocol (MCP) server. It serves as an example of how to set up and configure an MCP server for GitHub integration.
-
 ## Features
 
 - Use of Model Context Protocol (MCP) servers
