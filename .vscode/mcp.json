@@ -8,6 +8,10 @@
     }
   ],
   "servers": {
+    "git": {
+      "command": "uvx",
+      "args": ["mcp-server-git"]
+    },
     "github": {
       "command": "docker",
       "args": [
