@@ -37,4 +37,26 @@ A command-line interface tool that provides weather reports for specified locati
 
 ## Notes
 
-Add implementation notes and decisions here as we progress
+### API Selection
+
+- Selected OpenWeatherMap API with `pyowm` Python package
+- Reasons for selection:
+  - Official Python package available
+  - Free tier supports 60 calls/minute
+  - Provides all required weather data (current, hourly, 7-day forecast)
+  - Large community and good documentation
+  - Built-in error handling
+
+#### Alternatives Considered
+
+1. WeatherAPI.com
+   - Good documentation and reliability
+   - Python wrapper libraries available but not official
+   - Free tier limited to 1M calls/month
+   - Rejected due to less mature Python ecosystem
+
+2. Tomorrow.io (formerly ClimaCell)
+   - Modern API with Python SDK
+   - High accuracy data
+   - More complex integration
+   - Rejected due to higher pricing and overcomplicated for our needs
