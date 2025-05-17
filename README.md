@@ -9,9 +9,15 @@ This repository demonstrates use of Github Copilot in VS Code.
 
 ## Prerequisites
 
-- Git
-- Visual Studio Code
-  - When opening this project in VS Code, you'll be prompted to install recommended extensions
+- **Git**
+- **Visual Studio Code**
+  - When opening this project in VS Code, you'll be prompted to install recommended extensions.
+- **Docker**
+  - Required to run the GitHub MCP server.
+- **uv**
+  - Required to run the git MCP server and manage python environments.
+- **GitHub Personal Access Token**
+  - Required for authenticating with the GitHub MCP server. Create this token in your Github Developer Settings with the minimal permissions you'd like the MCP server to have.
 
 ## Setup Instructions
 
@@ -26,23 +32,31 @@ This repository demonstrates use of Github Copilot in VS Code.
    - Copy `.env.example` to `.env`
    - Configure required environment variables
 
+3. Start the MCP servers configured in `.vscode/mcp.json`
+
 ## Environment Variables
 
-| Variable | Description | Required |
-|----------|-------------|----------|
-| API_KEY | Authentication key | Yes |
+| Variable                     | Description                                                                | Required |
+| ---------------------------- | -------------------------------------------------------------------------- | -------- |
+| GITHUB_PERSONAL_ACCESS_TOKEN | GitHub Personal Access Token for authentication with the GitHub MCP server | Yes      |
 
 ## Project Structure
 
 TODO: Add description of key files and directories
 
-## Additional Resources
+## Resources
+
+### General
 
 - [Claude's Constitution](https://www.anthropic.com/news/claudes-constitution) - Anthropic's AI principles and ethical guidelines
+- [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers) - Collection of official and community-maintained MCP servers
+
+### Documentation
+
+- [GitHub Copilot](https://docs.github.com/en/copilot) - Overview of Github Copilot
 - [GitHub Copilot in VS Code](https://code.visualstudio.com/docs/copilot/overview) - Overview and guide for using GitHub Copilot in Visual Studio Code
-- [GitHub MCP Server](https://github.com/github/github-mcp-server) - Official GitHub Model Context Protocol Server repository
 - [MCP Server Documentation](https://modelcontextprotocol.io/introduction) - Introduction to Model Context Protocol
-- [GitHub API Documentation](https://docs.github.com/en/rest) - GitHub REST API reference
+- [GitHub MCP Server](https://github.com/github/github-mcp-server) - Official GitHub Model Context Protocol Server repository
 
 ## License
 
