@@ -9,7 +9,7 @@ A command-line interface for retrieving weather information using OpenWeatherMap
 - 7-day forecast
 - Location search by city name or zip code
 
-## Installation
+## Setup
 
 Run the following commands from this directory to set up the project:
 
@@ -25,7 +25,7 @@ uv pip list
 To get current weather conditions in New York:
 
 ```bash
-weather-cli current "New York"
+uv run weather-cli current "New York"
 ```
 
 The command line tool can also be invoked as a python module:
