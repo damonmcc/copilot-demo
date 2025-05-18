@@ -1,8 +1,7 @@
 """Main CLI interface for the weather application."""
 
 import click
-from weather_cli.weather.api import WeatherAPI
-from weather_cli.utils.config import load_config
+from utils.api import WeatherAPI
 
 @click.group()
 def cli():
