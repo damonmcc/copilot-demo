@@ -45,3 +45,9 @@ Run the following command to recompile the requirements file:
 ```bash
 uv pip compile pyproject.toml --output-file requirements.txt
 ```
+
+To run tests:
+
+```bash
+uv run pytest tests/test_weather_api.py -v
+```

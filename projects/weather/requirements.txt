@@ -41,5 +41,7 @@ pyyaml==6.0.2
     # via weather-cli (pyproject.toml)
 requests==2.32.3
     # via openmeteo-requests
+ruff==0.11.11
+    # via weather-cli (pyproject.toml)
 urllib3==2.4.0
     # via requests
