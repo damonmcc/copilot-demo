@@ -46,6 +46,7 @@ TODO: Add description of key files and directories
 
 - [Claude's Constitution](https://www.anthropic.com/news/claudes-constitution) - Anthropic's AI principles and ethical guidelines
 - [Copilot Tips and Tricks](https://code.visualstudio.com/docs/copilot/copilot-tips-and-tricks) - Tips and best practices for using GitHub Copilot in VS Code
+- [Awesome GitHub Copilot Customizations](https://github.com/github/awesome-copilot) - Collection of community-contributed instructions, prompts, and configurations for GitHub Copilot.
 - [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers) - Collection of official and community-maintained MCP servers
 
 ## Documentation
