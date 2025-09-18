@@ -1,21 +1,18 @@
 # Copilot Demo
 
-This repository demonstrates use of Github Copilot in VS Code.
+This repository demonstrates the use of GitHub Copilot in VS Code and on GitHub.com. It focuses on the setup and use of tools rather than the details of code created with them.
 
 ## Features
 
 - Use of Model Context Protocol (MCP) servers
-- TODO: Add more features
+- Use of Copilot for code review on PRs
 
 ## Prerequisites
 
-- **Git**
-- **Visual Studio Code**
-  - When opening this project in VS Code, you'll be prompted to install recommended extensions.
-- **Docker**
-  - Required to run the GitHub MCP server.
-- **uv**
-  - Required to run the git MCP server and manage python environments.
+- [git](https://git-scm.com/)
+- [VS Code](https://code.visualstudio.com/)
+- [uv](https://docs.astral.sh/uv/) to manage python environments
+- [Docker](https://www.docker.com/) (optional) to run the local version of the GitHub MCP server
 
 ## Setup
 
@@ -36,7 +33,7 @@ This repository demonstrates use of Github Copilot in VS Code.
 
 | Variable                     | Description                                                                                                                                                                                     | Required |
 | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
-| GITHUB_PERSONAL_ACCESS_TOKEN | GitHub Personal Access Token for authentication with the GitHub MCP server. Create this token in your Github Developer Settings with the minimal permissions you'd like the MCP server to have. | Yes      |
+| GITHUB_PERSONAL_ACCESS_TOKEN | GitHub Personal Access Token for authentication with GitHub MCP server (only required for a local server). Create this token in your GitHub Developer Settings with the minimal permissions you'd like the MCP server to have. | No      |
 
 ## Project Structure
 
@@ -51,7 +48,7 @@ TODO: Add description of key files and directories
 
 ## Documentation
 
-- [GitHub Copilot](https://docs.github.com/en/copilot) - Overview of Github Copilot
+- [GitHub Copilot](https://docs.github.com/en/copilot) - Overview of GitHub Copilot
 - [GitHub Copilot in VS Code](https://code.visualstudio.com/docs/copilot/overview) - Overview and guide for using GitHub Copilot in Visual Studio Code
 - [MCP Server Documentation](https://modelcontextprotocol.io/introduction) - Introduction to Model Context Protocol
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) - Official GitHub Model Context Protocol Server repository
