@@ -1,4 +1,0 @@
-openmeteo-requests>=0.1.0
-openmeteo-sdk>=1.20.0
-click>=8.0.0
-pyyaml>=6.0.0
