@@ -4,8 +4,9 @@ This repository demonstrates the use of GitHub Copilot in VS Code and on GitHub.
 
 ## Features
 
-- Use of Model Context Protocol (MCP) servers
-- Use of Copilot for code review on PRs
+- Model Context Protocol (MCP) servers
+- Copilot for code review on PRs
+- Custom [prompt files](https://code.visualstudio.com/docs/copilot/customization/prompt-files)
 
 ## Prerequisites
 
