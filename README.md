@@ -46,6 +46,7 @@ This repository demonstrates the use of GitHub Copilot in VS Code and on GitHub.
 
 - [Claude's Constitution](https://www.anthropic.com/news/claudes-constitution) - Anthropic's AI principles and ethical guidelines
 - [Copilot Tips and Tricks](https://code.visualstudio.com/docs/copilot/copilot-tips-and-tricks) - Tips and best practices for using GitHub Copilot in VS Code
+- [GitHub MCP Registry](https://github.com/mcp) - An open catalog and API for publicly available MCP servers
 - [VS Code MCP Servers](https://code.visualstudio.com/mcp) - A curated list of MCP servers by VS Code
 - [Awesome GitHub Copilot Customizations](https://github.com/github/awesome-copilot) - Collection of community-contributed instructions, prompts, and configurations for GitHub Copilot.
 - [Model Context Protocol Servers](https://github.com/modelcontextprotocol/servers) - Collection of reference and community-maintained MCP servers
