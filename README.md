@@ -12,7 +12,7 @@ This repository demonstrates the use of GitHub Copilot in VS Code and on GitHub.
 
 - [git](https://git-scm.com/)
 - [VS Code](https://code.visualstudio.com/)
-- [uv](https://docs.astral.sh/uv/) to manage python environments
+- [uv](https://docs.astral.sh/uv/) to manage python environments and run some of the MCP servers
 - [Docker](https://www.docker.com/) (optional) to run the local version of the GitHub MCP server
 
 ## MCP servers
@@ -30,13 +30,21 @@ This repository demonstrates the use of GitHub Copilot in VS Code and on GitHub.
    cd copilot-demo
    ```
 
-2. Configure environment
-   - Copy `.env.example` to `.env`
-   - Configure required environment variables
+2. Start the MCP servers configured in `.vscode/mcp.json`
 
-3. Start the MCP servers configured in `.vscode/mcp.json`
+3. Create and activate python virtual environment
+
+   ```bash
+   uv self update
+   uv venv
+   uv pip sync requirements.txt
+   source .venv/bin/activate
+   uv pip list
+   ```
 
 ### Environment Variables
+
+Copy `.env.example` to `.env` and configure relevant environment variables.
 
 | Variable                     | Description                                                                                                                                                                                     | Required |
 | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------- |
